@@ -1,0 +1,86 @@
+Comandos do Git:
+
+
+-- Voltar PASTAS
+
+        cd ..
+
+
+
+-- Criar Diretório
+
+        mkdir [NOME]
+
+
+-- Entrar no Diretório
+
+       cd ou dir [NOME]
+
+
+-- Iniciar o repositório
+
+        git init
+
+
+-- Listar o que tem dentro do repositório
+
+        ls -a   -       
+        ls -l
+        ls -la
+
+
+CICLO DOS STATUS
+
+        untracked -> unmodified -> modified -> staged
+
+
+
+-- Ver o status no git
+
+        git status
+
+
+
+-- Comittar
+
+        git commit -m "MENSAGEM"
+        git commit -am "MENSAGEM" -> fazaer isso quando já existe  o arquivo (atualização)
+
+
+
+-- Ver os logs de um git
+
+        git log   --  git log --decorate  --  git log --autor=[NOME_DA_PESSOA]  --  git log shortlog  -- git shortlog -sn
+
+        git log --graph  
+
+
+
+-- Ver o que mudou dentro de um commit
+
+        git show [NUMERO_DA_HASH]
+
+
+
+
+-- Mostrar o que mudou antes de salvar
+
+        git diff   --  git diff --name-only
+
+
+
+-- Desfazer mudança
+
+        git checkout [NOME_DO_ARQUIVO]
+
+
+        git reset HEAD [NOME_DO_ARQUIVO]  -> sair do staged
+
+        git reset --soft [HASH] -> Tirar o commit
+
+        git reset --mixed [HASH] -> Tirar commit e voltar para o modified
+
+        git reset --hard [HASH] -> Reseta tudo 
+
+
+s
