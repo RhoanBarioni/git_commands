@@ -44,13 +44,13 @@ CICLO DOS STATUS
 -- Comittar
 
         git commit -m "MENSAGEM"
-        git commit -am "MENSAGEM" -> fazaer isso quando já existe  o arquivo (atualização)
+        git commit -am "MENSAGEM" -> fazer isso quando já existe  o arquivo (atualização)
 
 
 
 -- Ver os logs de um git
 
-        git log   --  git log --decorate  --  git log --autor=[NOME_DA_PESSOA]  --  git log shortlog  -- git shortlog -sn
+        git log   --    git log --decorate    --    git log --autor=[NOME_DA_PESSOA]   --    git log shortlog   --   git shortlog -sn
 
         git log --graph  
 
@@ -65,13 +65,13 @@ CICLO DOS STATUS
 
 -- Mostrar o que mudou antes de salvar
 
-        git diff   --  git diff --name-only
+        git diff     --     git diff --name-only
 
 
 
 -- Desfazer mudança
 
-        git checkout [NOME_DO_ARQUIVO]
+        git checkout [NOME_DO_ARQUIVO]  - retorna antes da edição
 
 
         git reset HEAD [NOME_DO_ARQUIVO]  -> sair do staged
@@ -83,4 +83,16 @@ CICLO DOS STATUS
         git reset --hard [HASH] -> Reseta tudo 
 
 
-s
+
+
+--Diretório remote
+MOSTRAR OS REMOTES
+
+        git remote
+        gite remote -v
+
+
+MANDAR PARA REMOTE
+
+        git push -u [nome de onde vai] [nome de onde tá]  -  o -u faz ele ir direto depois
+        git push
