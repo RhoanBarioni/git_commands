@@ -133,11 +133,19 @@ BRANCH
 
 
 
-        MOSTRAR BRANCH:
+        MOSTRAR/LISTAR BRANCH:
 
                 git branch
 
         
         MOVER OU DELETAR BRANCH:
 
-                
+                git checkout [NOME_DO_BRANCH]
+
+
+        DELETAR UM BRANCH:
+
+                git branch -D [NOME_DO_BRANCH]
+
+
+        
