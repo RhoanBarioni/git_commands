@@ -94,5 +94,50 @@ MOSTRAR OS REMOTES
 
 MANDAR PARA REMOTE
 
+        git push -u     origin               master
         git push -u [nome de onde vai] [nome de onde tá]  -  o -u faz ele ir direto depois
         git push
+
+
+
+CLONAR repositório
+
+        g clone [LINK DO REPOSITORIO]  [NOME DA PASTA]
+
+
+
+
+FORK
+
+        clona um repositório que não é seu
+
+
+
+
+
+BRANCH
+        significado:
+                ponteiro que leva a um commit
+
+        para que usar:
+                modifica sem alterar o arquivo principal
+                facil de apagar ou "desligar"
+                varias pessoas trabalhando
+                evia conflito
+
+
+
+        CRIANDO UM BRANCH:
+
+                git checkout -b [NOME_DO_BRANCH]
+
+
+
+        MOSTRAR BRANCH:
+
+                git branch
+
+        
+        MOVER OU DELETAR BRANCH:
+
+                
